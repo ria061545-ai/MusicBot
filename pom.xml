@@ -37,8 +37,7 @@
             <artifactId>JDA</artifactId>
             <version>4.4.1_353</version>
         </dependency>
-                <dependency>
-                    <dependency>
+        <dependency>
             <groupId>com.github.jagrosh</groupId>
             <artifactId>jda-utilities-command</artifactId>
             <version>3.0.5</version>
@@ -52,8 +51,6 @@
             <groupId>com.github.jagrosh</groupId>
             <artifactId>jda-utilities-menu</artifactId>
             <version>3.0.5</version>
-        </dependency>
-					
         </dependency>
 		
         <!-- Music Dependencies -->

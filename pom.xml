@@ -12,12 +12,12 @@
             <name>m2-dv8tion</name>
             <url>https://m2.dv8tion.net/releases</url>
         </repository>
-        <dependency>
+        <repositories>
     <groupId>com.github.jagrosh</groupId>
     <artifactId>jda-utilities</artifactId>
     <version>3.0.5</version>
     <type>pom</type>
-    </dependency>
+    </repositories>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>

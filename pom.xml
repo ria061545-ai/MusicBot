@@ -12,10 +12,12 @@
             <name>m2-dv8tion</name>
             <url>https://m2.dv8tion.net/releases</url>
         </repository>
-                <repository>
-            <id>cheerpj-repo</id>
-            <url>https://maven.cheerpj.com</url>
-        </repository>
+        <dependency>
+    <groupId>com.github.jagrosh</groupId>
+    <artifactId>jda-utilities</artifactId>
+    <version>3.0.5</version>
+    <type>pom</type>
+    </dependency>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
@@ -44,7 +46,7 @@
             <version>4.4.1_353</version>
         </dependency>
         <dependency>
-            <groupId>com.github.cheerpj</groupId>
+            <groupId>com.github.jagrosh</groupId>
             <artifactId>jda-utilities</artifactId>
             <version>3.0.5</version>
             <type>pom</type>
